@@ -1,0 +1,32 @@
+.slider_img {
+    margin-left: -3vw;
+    max-width: 30vw;
+    height: auto;
+}
+
+#slider {
+    width: 30vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.slider li {
+    /*
+    display: none;
+    */
+    list-style-type: none;
+    position: absolute;
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+}
+
+.slider li.active {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    /* display: block;*/
+}
+
+.after_slider{
+    margin-top: 23vw;
+}

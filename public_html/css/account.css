@@ -1,0 +1,59 @@
+.hallow {
+    font-size: 2em;
+    margin: 15px;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+fieldset {
+    border: orange solid 2px;
+    border-radius: 10px;
+    padding: 40px;
+
+}
+
+legend {
+    font-size: 1.5em;
+    text-align: center;
+    width: auto;
+    padding: 15px;
+}
+
+.btn {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.margin-50 {
+    margin-top: 30px;
+}
+
+#error1,#error2 {
+    display: none;
+    color: red;
+}
+
+#correctly {
+    display: none;
+    color: green;
+}
+
+.ql-editor{
+    height: 300px;
+}
+.delete_picture_img{
+    width: 10vw;
+    height: auto;
+}
+.long_text_cont{
+    max-height: 200px;
+    overflow: hidden; /* Обрезаем содержимое */
+    padding: 5px; /* Поля */
+    text-overflow: ellipsis; /* Многоточие */
+
+}
+.comment_master{
+    display: none;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "kairale/pin-art",
+    "description": "This project is the final work on web-development courses",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kairale",
+            "email": "prilepskaya1997@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kairale\\PinArtStudio\\": "src/"
+        }
+    }
+}

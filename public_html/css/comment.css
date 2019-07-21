@@ -1,0 +1,101 @@
+.comment{
+    display: flex;
+}
+.text_knopka input{
+    padding: 15px auto 15px auto;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    border-radius: 2vw;
+    background-color: #4D2442;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgba(244, 210, 224, 0.3);
+    cursor: pointer;
+}
+.text_knopka input:hover{
+    transition: all 0.5s;
+    background: rgba(244, 210, 224, 0.9);
+    color: #4D2442;
+}
+.author_comment{
+    margin:1vw;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    border: none;
+    border-bottom: #4D2442 solid 1px;
+    border-top: #4D2442 solid 1px;
+
+}
+.formTextarea{
+  border-radius: 0.5vw;
+    border: none;
+    border-top: #4D2442 solid 1px;
+    border-bottom: #4D2442 solid 1px;
+    padding:0.5vw;
+    font-size: 1vw;
+
+
+}
+.all_comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60%;
+}
+#error {
+    display: none;
+    color: red;
+}
+#errorAuthor{
+    display: none;
+    color: red;
+}
+#correctly {
+    display: none;
+    color: green;
+}
+.for_commit{
+    width: 90%;
+}
+#com {
+    border-left: #4D2442 solid 4px;
+    background: rgba(244, 210, 224, 0.3);
+    padding: 10px;
+    margin: 1vw 0 1vw 0;
+    word-wrap: break-word;
+}
+#pTime {
+    text-align: right;
+
+    margin: 0;
+}
+#pAut{
+    text-align: right;
+    margin: 0;
+    font-style: italic;
+}
+#childCom{
+    width: 80%;
+    border-left: #4D2442 solid 4px;
+    background: rgba(244, 210, 224, 0.1);
+    padding: 10px;
+    margin-top: -1vw;
+    margin-left: auto;
+    margin-bottom: 1vw;
+    word-wrap: break-word;
+    font-size: 0.93vw;
+}
+#childCom p{
+
+}
+#childpAut{
+    text-align: right;
+    margin: 0;
+    font-style: italic;
+}
+#childpTime{
+    text-align: right;
+    margin: 0;
+}
+
